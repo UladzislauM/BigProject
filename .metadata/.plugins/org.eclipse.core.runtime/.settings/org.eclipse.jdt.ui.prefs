@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="package1.Student"><rhs name\="package1.Student"/></lhs><lhs name\="package1.Group"><rhs name\="package1.Group"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="package1.Student"><rhs name\="package1.Student"/></lhs><lhs name\="package1.Group"><rhs name\="package1.Group"/></lhs><lhs name\="package1.Address"><rhs name\="package1.Address"/></lhs><lhs name\="package1.People"><rhs name\="package1.Teacher"/></lhs><lhs name\="package1.Teacher"><rhs name\="package1.Teacher"/></lhs></history>
 content_assist_number_of_computers=12
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

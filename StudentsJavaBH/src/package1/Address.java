@@ -7,16 +7,16 @@ public class Address {
 	 private int flat;
 	 
 	 public Address() {
-		this.city = "Undefind";
-		this.street = "Undefind";
+		this.city = "UndefindA";
 		this.house = 0;
+		this.street = "UndefindA";
 		this.flat = 0;
 	}
 	 
 	 Address(String city, String street, int house, int flat) {
 		this.city = city;
-		this.street = street;
 		this.house = house;
+		this.street = street;
 		this.flat = flat;
 	}
 	 
@@ -50,8 +50,8 @@ public class Address {
 		 return flat;
 	 }
 	 
-	 public void PrintMetodAD() {
-		System.out.println(city + ", " + street + ", " + house + ", " + flat);
+	 public String toString() {
+		return city + ", " + street + ", " + house + ", " + flat;
 	}
 }
 

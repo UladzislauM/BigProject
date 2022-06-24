@@ -1,0 +1,9 @@
+package package1;
+
+public abstract class People {
+
+	private String name;
+	private String lastName;
+	private int age;
+	private Address address;
+}

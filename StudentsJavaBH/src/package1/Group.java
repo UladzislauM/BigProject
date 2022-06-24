@@ -1,7 +1,5 @@
 package package1;
 
-import java.util.Arrays;
-
 public class Group {
 	private String groupName;
 	private int kurs;
@@ -45,37 +43,38 @@ public class Group {
 		return teacher;
 	}
 	
-	public void PrintMetodGr() {
-		System.out.println(groupName + ", " + kurs + "\n");
-		for (Student i : student) {
-			System.out.println(i);
-		}
-		teacher.PrintMetodTR();
+	public String toString() {
+		return groupName + ", " + kurs + "\n";
 	}
 	
-	public void DeleteStudent(String studentNameDelete, String studentLasttNameDelete) {
-		Student[] newStudent = new Student[student.length];
+	public void DeleteStudent(Student delStudent) {
+		Student[] newStudent = new Student[student.length - 1];
+		int iterator = 0;
+		
 		for (int i = 0; i < student.length; i++) {
-			if (student[i].getName() != studentNameDelete 
-					&& student[i].getLastName() != studentLasttNameDelete) {
-				newStudent[i] = student[i];
+			if (student[i].getName() != delStudent.getName() 
+			&& student[i].getLastName() != delStudent.getLastName()){
+				
+				iterator++;
+				newStudent[iterator] = student[i];
 			}
 		}
-		student = Arrays.copyOf(newStudent, newStudent.length);
+		
+		student = newStudent;
+
 	}
 	
-	public void AddStudents(String name, String lastName, int age) {
-		student[0].setName(name);
-		student[0].setLastName(lastName);
-		student[0].setAge(age);
-		System.out.println(student[0]);
-//		for (int i = 0; i < student.length; i++) {
-//			if (student[i].getName() == null) {
-//				student[i].setName(name);
-//				student[i].setLastName(lastName);
-//				student[i].setAge(age);
-//			}
-//		}
+	public void AddStudent(Student addStudent) {
+		Student[] newStudent = new Student[student.length + 1];
+		
+		for (int i = 0; i < student.length; i++) {
+			newStudent[i] = student[i];
+		}
+		
+		newStudent[newStudent.length - 1] = addStudent;
+		
+		student = newStudent;
+
 	}
 	
 }
