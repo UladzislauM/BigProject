@@ -1,3 +1,7 @@
 1655980717454	Delete element
 1655980811532	Rename package 'Packege'
 1655983130015	Rename package 'packege'
+1656041540858	Encapsulate field 'name'
+1656041548417	Encapsulate field 'lastName'
+1656041552039	Encapsulate field 'age'
+1656041562744	Encapsulate field 'address'

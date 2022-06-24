@@ -3,17 +3,34 @@ package package1;
 public class Main {
 
 	public static void main(String[] args) {
+		
 		Group group = new Group("11A", 11, 3);
 		
-		group.AddStudents("Vlad", "Marsha", 28);
-//		group.AddStudents("Andrey", "Shysh", 29);
-//		group.AddStudents("bb", "cc", 5);
+		Student st1 = new Student("Vas", "Blinsk",28, null);
+		Student st2 = new Student("Jek", "Blinsk",27, null);
+		Student st3 = new Student("Vlad", "Mir",29, null);
 		
-//		group.PrintMetodGr();
+		Student stAddDell = new Student("Vas", "Blinsk",28, null);
+		
+		group.AddStudent(st1);
+		group.AddStudent(st2);
+		group.AddStudent(st3);
+		
+		System.out.println("Before: " + group.toString());
+		
+		Teacher teacher = new Teacher();
+		System.out.println(teacher.toString());
+		
+//		System.out.println("Before: " + group.toString());
 
-//		group.DeleteStudent("bb", "cc");
+//		group.DeleteStudent(stAddDell);
 //		
-//		group.PrintMetodGr();
+//		System.out.println("After Dell: " + group.toString());
+//		
+//		group.AddStudent(stAddDell);
+//		
+//		System.out.println("After Add: " + group.toString());
+
 	}
 
 }

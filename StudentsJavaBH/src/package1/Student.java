@@ -1,54 +1,18 @@
 package package1;
 
-public class Student {
-	private String name;
-	private String lastName;
-	private int age;
-	private Address address;
-	
+public class Student extends People {
+
 	Student(){
-		this.name = "Undefind";
-		this.lastName = "Undefind";
-		this.age = 0;
-		this.address = new Address();
+		super("UndefinedS", "UndefinedS", 0, new Address());
 	}
+	
+	public Student(String name, String lastName, int age, Address address) {
+		super(name, lastName, age, address);
+	}	
 
-	Student(String name, String lastName, int age, Address address){
-		this.name = name;
-		this.lastName = lastName;
-		this.age = age;
-		this.address = address;
-	 }
-
-    public void setName(String name) {
-    	this.name = name;
-	}
-    public void setLastName(String lastName) {
-    	this.lastName = lastName;
-    }
-    public void setAge(int age) {
-    	this.age = age;
-    }
-    public void setAddress(Address address) {
-    	this.address = address;
-    }
     
-    
-    public String getName() {
-		return name;
-	}
-    public String getLastName() {
-    	return lastName;
-    }
-    public int getAge() {
-		return age;
-	}
-    public Address getAddress() {
-		return address;
-	}
-    
-    public void PrintMetodST() {
-		System.out.println(name + ", " + lastName  + ", " + age + "\n");
-		address.PrintMetodAD();
+    public String toString() {
+		return getName() + ", " + getLastName()  + ", " + getAge() + "\n" 
+    + getAddress().toString();
 	}
 }

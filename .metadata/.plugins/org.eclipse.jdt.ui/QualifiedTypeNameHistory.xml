@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="package1.Group"/>
     <fullyQualifiedTypeName name="package1.Student"/>
+    <fullyQualifiedTypeName name="package1.Address"/>
+    <fullyQualifiedTypeName name="package1.Teacher"/>
+    <fullyQualifiedTypeName name="package1.People"/>
 </qualifiedTypeNameHistroy>
