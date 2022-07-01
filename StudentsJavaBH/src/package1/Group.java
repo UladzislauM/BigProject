@@ -1,22 +1,24 @@
 package package1;
 
+import java.util.LinkedList;
+
 public class Group {
 	private String groupName;
 	private int kurs;
-	private Student[] student;
-	private Teacher teacher;
+	private LinkedList<Student> student;
+	private LinkedList<Teacher> teacher;
 
 	Group(){
 		this.groupName = "Undefind";
 		this.kurs = 0;
-		this.student = new Student[5];
-		this.teacher = new Teacher();
+		this.student = new LinkedList<Student>();
+		this.teacher = new LinkedList<Teacher>();
 	}
-	Group(String groupName, int kurs, int numStudents){
+	Group(String groupName, int kurs){
 		this.groupName = groupName;
 		this.kurs = kurs;
-		this.student = new Student[numStudents];
-		this.teacher = new Teacher();
+		this.student = new LinkedList<Student>();
+		this.teacher = new LinkedList<Teacher>();
 	}
 	
 	public void setGroupName(String groupName) {
@@ -34,33 +36,25 @@ public class Group {
 	public int getKurs() {
 		return kurs;
 	}
-	
-	public void ChangeTeacher(Teacher teacher) {
-		this.teacher = teacher;
-	}
-	
-	public Teacher geTeacher() {
-		return teacher;
-	}
-	
+
 	public String toString() {
 		return groupName + ", " + kurs + "\n";
 	}
 	
 	public void DeleteStudent(Student delStudent) {
-		Student[] newStudent = new Student[student.length - 1];
+		LinkedList<Student> newStudent = new LinkedList<Student>();
 		int iterator = 0;
 		
-		for (int i = 0; i < student.length; i++) {
-			if (student[i].getName() != delStudent.getName() 
-			&& student[i].getLastName() != delStudent.getLastName()){
+		for (int i = 0; i < student.size(); i++) {
+			if (student.element().getName() != delStudent.getName()
+			&& student.element().getLastName() != delStudent.getLastName()){
 				
 				iterator++;
-				newStudent[iterator] = student[i];
+				student.add(newStudent.get(i));
 			}
 		}
 		
-		student = newStudent;
+		student.addAll(newStudent);
 
 	}
 	
