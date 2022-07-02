@@ -1,0 +1,19 @@
+Index: StudentsJavaBH/src/package1/Group.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package package1;\r\n\r\nimport java.util.LinkedList;\r\n\r\npublic class Group {\r\n\tprivate String groupName;\r\n\tprivate int kurs;\r\n\tprivate LinkedList<Student> student;\r\n\tprivate LinkedList<Teacher> teacher;\r\n\r\n\tGroup(){\r\n\t\tthis.groupName = \"Undefind\";\r\n\t\tthis.kurs = 0;\r\n\t\tthis.student = new LinkedList<Student>();\r\n\t\tthis.teacher = new LinkedList<Teacher>();\r\n\t}\r\n\tGroup(String groupName, int kurs){\r\n\t\tthis.groupName = groupName;\r\n\t\tthis.kurs = kurs;\r\n\t\tthis.student = new LinkedList<Student>();\r\n\t\tthis.teacher = new LinkedList<Teacher>();\r\n\t}\r\n\t\r\n\tpublic void setGroupName(String groupName) {\r\n\t\tthis.groupName = groupName;\r\n\t}\r\n\tpublic void setKurs(int kurs) {\r\n\t\tif(kurs > 0){\r\n\t\t\tthis.kurs = kurs;\r\n\t    }\r\n\t}\r\n\r\n\tpublic String getGroupName() {\r\n\t\treturn groupName;\r\n\t}\r\n\tpublic int getKurs() {\r\n\t\treturn kurs;\r\n\t}\r\n\r\n\tpublic String toString() {\r\n\t\treturn groupName + \", \" + kurs + \"\\n\";\r\n\t}\r\n\t\r\n\tpublic void DeleteStudent(Student delStudent) {\r\n\t\tLinkedList<Student> newStudent = new LinkedList<Student>();\r\n\t\tint iterator = 0;\r\n\t\t\r\n\t\tfor (int i = 0; i < student.size(); i++) {\r\n\t\t\tif (student.element().getName() != delStudent.getName()\r\n\t\t\t&& student.element().getLastName() != delStudent.getLastName()){\r\n\t\t\t\t\r\n\t\t\t\titerator++;\r\n\t\t\t\tstudent.add(newStudent.get(i));\r\n\t\t\t}\r\n\t\t}\r\n\t\t\r\n\t\tstudent.addAll(newStudent);\r\n\r\n\t}\r\n\t\r\n\tpublic void AddStudent(Student addStudent) {\r\n\t\tStudent[] newStudent = new Student[student.length + 1];\r\n\t\t\r\n\t\tfor (int i = 0; i < student.length; i++) {\r\n\t\t\tnewStudent[i] = student[i];\r\n\t\t}\r\n\t\t\r\n\t\tnewStudent[newStudent.length - 1] = addStudent;\r\n\t\t\r\n\t\tstudent = newStudent;\r\n\r\n\t}\r\n\t\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StudentsJavaBH/src/package1/Group.java b/StudentsJavaBH/src/package1/Group.java
+--- a/StudentsJavaBH/src/package1/Group.java	
++++ b/StudentsJavaBH/src/package1/Group.java	
+@@ -7,6 +7,8 @@
+ 	private int kurs;
+ 	private LinkedList<Student> student;
+ 	private LinkedList<Teacher> teacher;
++	Link
++
+ 
+ 	Group(){
+ 		this.groupName = "Undefind";

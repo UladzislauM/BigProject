@@ -1,0 +1,112 @@
+Index: StudentsJavaBH/src/package1/Group.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package package1;\r\n\r\nimport java.util.Arrays;\r\n\r\npublic class Group {\r\n\tprivate String groupName;\r\n\tprivate int kurs;\r\n\tprivate Student[] student;\r\n\tprivate Teacher teacher;\r\n\r\n\tGroup(){\r\n\t\tthis.groupName = \"Undefind\";\r\n\t\tthis.kurs = 0;\r\n\t\tthis.student = new Student[5];\r\n\t\tthis.teacher = new Teacher();\r\n\t}\r\n\tGroup(String groupName, int kurs, int numStudents){\r\n\t\tthis.groupName = groupName;\r\n\t\tthis.kurs = kurs;\r\n\t\tthis.student = new Student[numStudents];\r\n\t\tthis.teacher = new Teacher();\r\n\t}\r\n\t\r\n\tpublic void setGroupName(String groupName) {\r\n\t\tthis.groupName = groupName;\r\n\t}\r\n\tpublic void setKurs(int kurs) {\r\n\t\tif(kurs > 0){\r\n\t\t\tthis.kurs = kurs;\r\n\t    }\r\n\t}\r\n\r\n\tpublic String getGroupName() {\r\n\t\treturn groupName;\r\n\t}\r\n\tpublic int getKurs() {\r\n\t\treturn kurs;\r\n\t}\r\n\t\r\n\tpublic void ChangeTeacher(Teacher teacher) {\r\n\t\tthis.teacher = teacher;\r\n\t}\r\n\t\r\n\tpublic Teacher geTeacher() {\r\n\t\treturn teacher;\r\n\t}\r\n\t\r\n\tpublic void PrintMetodGr() {\r\n\t\tSystem.out.println(groupName + \", \" + kurs + \"\\n\");\r\n\t\tfor (Student i : student) {\r\n\t\t\tSystem.out.println(i);\r\n\t\t}\r\n\t\tteacher.PrintMetodTR();\r\n\t}\r\n\t\r\n\tpublic void DeleteStudent(String studentNameDelete, String studentLasttNameDelete) {\r\n\t\tStudent[] newStudent = new Student[student.length];\r\n\t\tfor (int i = 0; i < student.length; i++) {\r\n\t\t\tif (student[i].getName() != studentNameDelete \r\n\t\t\t\t\t&& student[i].getLastName() != studentLasttNameDelete) {\r\n\t\t\t\tnewStudent[i] = student[i];\r\n\t\t\t}\r\n\t\t}\r\n\t\tstudent = Arrays.copyOf(newStudent, newStudent.length);\r\n\t}\r\n\t\r\n\tpublic void AddStudents(String name, String lastName, int age) {\r\n\t\tstudent[0].setName(name);\r\n\t\tstudent[0].setLastName(lastName);\r\n\t\tstudent[0].setAge(age);\r\n\t\tSystem.out.println(student[0]);\r\n//\t\tfor (int i = 0; i < student.length; i++) {\r\n//\t\t\tif (student[i].getName() == null) {\r\n//\t\t\t\tstudent[i].setName(name);\r\n//\t\t\t\tstudent[i].setLastName(lastName);\r\n//\t\t\t\tstudent[i].setAge(age);\r\n//\t\t\t}\r\n//\t\t}\r\n\t}\r\n\t\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/StudentsJavaBH/src/package1/Group.java b/StudentsJavaBH/src/package1/Group.java
+--- a/StudentsJavaBH/src/package1/Group.java	(revision 95bf8f34042b9bbe0ec26869dcb17b1fd833c9e4)
++++ b/StudentsJavaBH/src/package1/Group.java	(date 1656646392794)
+@@ -5,20 +5,20 @@
+ public class Group {
+ 	private String groupName;
+ 	private int kurs;
+-	private Student[] student;
+-	private Teacher teacher;
++	private LinkedList<Student> student;
++	private LinkedList<Teacher> teacher;
+ 
+ 	Group(){
+ 		this.groupName = "Undefind";
+ 		this.kurs = 0;
+-		this.student = new Student[5];
+-		this.teacher = new Teacher();
++		this.student = new LinkedList<Student>();
++		this.teacher = new LinkedList<Teacher>();
+ 	}
+-	Group(String groupName, int kurs, int numStudents){
++	Group(String groupName, int kurs){
+ 		this.groupName = groupName;
+ 		this.kurs = kurs;
+-		this.student = new Student[numStudents];
+-		this.teacher = new Teacher();
++		this.student = new LinkedList<Student>();
++		this.teacher = new LinkedList<Teacher>();
+ 	}
+ 	
+ 	public void setGroupName(String groupName) {
+@@ -37,14 +37,6 @@
+ 		return kurs;
+ 	}
+ 	
+-	public void ChangeTeacher(Teacher teacher) {
+-		this.teacher = teacher;
+-	}
+-	
+-	public Teacher geTeacher() {
+-		return teacher;
+-	}
+-	
+ 	public void PrintMetodGr() {
+ 		System.out.println(groupName + ", " + kurs + "\n");
+ 		for (Student i : student) {
+@@ -52,30 +44,36 @@
+ 		}
+ 		teacher.PrintMetodTR();
+ 	}
+-	
+-	public void DeleteStudent(String studentNameDelete, String studentLasttNameDelete) {
+-		Student[] newStudent = new Student[student.length];
++
++	public void DeleteStudent(Student delStudent) {
++		Student[] newStudent = new Student[student.length - 1];
++		int iterator = 0;
++
+ 		for (int i = 0; i < student.length; i++) {
+-			if (student[i].getName() != studentNameDelete 
+-					&& student[i].getLastName() != studentLasttNameDelete) {
+-				newStudent[i] = student[i];
+-			}
++			if (student[i].getName() != delStudent.getName()
++					&& student[i].getLastName() != delStudent.getLastName()){
++
++				iterator++;
++				newStudent[iterator] = student[i];
++			}
++		}
++
++		student = newStudent;
++
++	}
++
++	public void AddStudent(Student addStudent) {
++		Student[] newStudent = new Student[student.length + 1];
++
++		for (int i = 0; i < student.length; i++) {
++			newStudent[i] = student[i];
+ 		}
+-		student = Arrays.copyOf(newStudent, newStudent.length);
++
++		newStudent[newStudent.length - 1] = addStudent;
++
++		student = newStudent;
+ 	}
+-	
+-	public void AddStudents(String name, String lastName, int age) {
+-		student[0].setName(name);
+-		student[0].setLastName(lastName);
+-		student[0].setAge(age);
+-		System.out.println(student[0]);
+-//		for (int i = 0; i < student.length; i++) {
+-//			if (student[i].getName() == null) {
+-//				student[i].setName(name);
+-//				student[i].setLastName(lastName);
+-//				student[i].setAge(age);
+-//			}
+-//		}
+-	}
++
++}
+ 	
+ }
