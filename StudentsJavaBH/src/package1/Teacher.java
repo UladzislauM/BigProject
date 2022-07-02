@@ -28,7 +28,6 @@ public class Teacher extends People{
 	}
 	
 	public String toString() {
-		return getName() + ", " + getLastName() + ", " + getAge() + ", " + salary 
-				+"\n" + getAddress().toString();
+		return getName() + ", " + getLastName() + ", " + getAge() + ", " + salary;
 	}
 }

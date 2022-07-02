@@ -2,7 +2,7 @@ package package1;
 
 public class Student extends People {
 
-	Student(){
+	Student() {
 		super("UndefinedS", "UndefinedS", 0, new Address());
 	}
 	
@@ -12,7 +12,6 @@ public class Student extends People {
 
     
     public String toString() {
-		return getName() + ", " + getLastName()  + ", " + getAge() + "\n" 
-    + getAddress().toString();
+		return getName() + ", " + getLastName()  + ", " + getAge();
 	}
 }
