@@ -38,37 +38,31 @@ public class Group {
 	}
 
 	public String toString() {
-		return groupName + ", " + kurs + "\n";
+			return groupName + ", " + kurs + "\n";
 	}
-	
-	public void DeleteStudent(Student delStudent) {
-		LinkedList<Student> newStudent = new LinkedList<Student>();
-		int iterator = 0;
-		
-		for (int i = 0; i < student.size(); i++) {
-			if (student.element().getName() != delStudent.getName()
-			&& student.element().getLastName() != delStudent.getLastName()){
-				
-				iterator++;
-				student.add(newStudent.get(i));
-			}
-		}
-		
-		student.addAll(newStudent);
 
+	public void addStudent (Student studentAdd){
+		student.add(studentAdd);
 	}
-	
-	public void AddStudent(Student addStudent) {
-		Student[] newStudent = new Student[student.length + 1];
-		
-		for (int i = 0; i < student.length; i++) {
-			newStudent[i] = student[i];
-		}
-		
-		newStudent[newStudent.length - 1] = addStudent;
-		
-		student = newStudent;
 
+	public void dellStudent (Student studentAdd) {
+		student.remove(studentAdd);
 	}
-	
+
+	public void addTeacher (Teacher teacherAdd){
+		teacher.add(teacherAdd);
+	}
+
+	public void dellTeacher (Teacher teacherDell){
+		teacher.remove(teacherDell);
+	}
+
+	public LinkedList<Student> getStudent() {
+		return student;
+	}
+
+	public LinkedList<Teacher> getTeacher() {
+		return teacher;
+	}
+
 }
