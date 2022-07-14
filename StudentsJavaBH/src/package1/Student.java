@@ -12,6 +12,7 @@ public class Student extends People {
 
     
     public String toString() {
+
 		return getName() + ", " + getLastName()  + ", " + getAge() + "\n";
 	}
 }

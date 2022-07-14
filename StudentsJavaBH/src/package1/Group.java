@@ -6,19 +6,21 @@ public class Group {
 	private String groupName;
 	private int kurs;
 	private LinkedList<Student> student;
-	private LinkedList<Teacher> teacher;
+	private Teacher teacher;
+
+
 
 	Group(){
 		this.groupName = "Undefind";
 		this.kurs = 0;
 		this.student = new LinkedList<Student>();
-		this.teacher = new LinkedList<Teacher>();
+		this.teacher = new Teacher();
 	}
-	Group(String groupName, int kurs){
+	Group(String groupName, int kurs, Teacher teacher){
 		this.groupName = groupName;
 		this.kurs = kurs;
 		this.student = new LinkedList<Student>();
-		this.teacher = new LinkedList<Teacher>();
+		this.teacher = teacher;
 	}
 	
 	public void setGroupName(String groupName) {
@@ -30,6 +32,14 @@ public class Group {
 	    }
 	}
 
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
+	}
+
+	public Teacher getTeacher() {
+		return teacher;
+	}
+
 	public String getGroupName() {
 		return groupName;
 	}
@@ -38,7 +48,7 @@ public class Group {
 	}
 
 	public String toString() {
-			return groupName + ", " + kurs + "\n";
+			return groupName + ", " + kurs + "," +  teacher + "\n";
 	}
 
 	public void addStudent (Student studentAdd){
@@ -49,20 +59,9 @@ public class Group {
 		student.remove(studentAdd);
 	}
 
-	public void addTeacher (Teacher teacherAdd){
-		teacher.add(teacherAdd);
-	}
-
-	public void dellTeacher (Teacher teacherDell){
-		teacher.remove(teacherDell);
-	}
-
 	public LinkedList<Student> getStudent() {
 		return student;
 	}
 
-	public LinkedList<Teacher> getTeacher() {
-		return teacher;
-	}
 
 }
