@@ -5,9 +5,10 @@ import java.util.LinkedList;
 public class Methodist extends People{
     private LinkedList <Teacher> teachers;
 
-    public Methodist(String name, String lastName, int age, Address address, Teacher teacher) {
+    public Methodist(String name, String lastName, int age, Address address,
+                     Teacher teacher, String gender) {
 
-        super(name, lastName, age, address);
+        super(name, lastName, age, address, gender);
         this.teachers = new LinkedList<>();
     }
 

@@ -4,13 +4,15 @@ public class Teacher extends People{
 	
 	private int salary;
 	
-	public Teacher(String name, String lastName, int age, Address address, int salary) {
-		super(name, lastName, age, address);
+	public Teacher(String name, String lastName, int age, Address address,
+				   int salary, String gender) {
+		super(name, lastName, age, address, gender);
 		this.salary = salary;
 	}
 
 	public Teacher() {
-		super("UndifindT", "UndifindT", 0, new Address());
+		super("UndifindT", "UndifindT", 0,
+				new Address(), "UndifindT");
 		this.salary = 0;
 	}
 
