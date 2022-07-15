@@ -1,6 +1,8 @@
-package package1;
+package base;
 
-public abstract class People {
+import base.Address;
+
+public abstract class People implements Comparable<People>{
 
 
 	private String name;
@@ -50,5 +52,16 @@ public abstract class People {
 
 	public void setGender(String gender) {
 		this.gender = gender;
+	}
+
+	@Override
+	public int compareTo(People o) {
+		if(lastName.compareTo(o.getLastName()) == 0){
+			if (age - o.getAge() == 0){
+				return o.getAge() - age;
+			}
+			return o.getLastName().compareTo(lastName);
+		}
+		return o.getName().compareTo(name);
 	}
 }

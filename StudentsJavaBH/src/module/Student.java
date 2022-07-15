@@ -1,4 +1,7 @@
-package package1;
+package module;
+
+import base.Address;
+import base.People;
 
 public class Student extends People {
 
@@ -14,6 +17,6 @@ public class Student extends People {
     
     public String toString() {
 
-		return getName() + ", " + getLastName()  + ", " + getAge() + "\n";
+		return getName() + ", " + getLastName()  + ", " + getAge() + ", " + getGender();
 	}
 }

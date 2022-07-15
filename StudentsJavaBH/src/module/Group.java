@@ -1,4 +1,4 @@
-package package1;
+package module;
 
 import java.util.LinkedList;
 
@@ -7,18 +7,24 @@ public class Group {
 	private int kurs;
 	private LinkedList<Student> student;
 	private LinkedList<Teacher> teacher;
+	private int inYear;
+	private int outYear;
 
 	Group(){
 		this.groupName = "Undefind";
 		this.kurs = 0;
 		this.student = new LinkedList<Student>();
 		this.teacher = new LinkedList<Teacher>();
+		this.inYear = 0;
+		this.outYear = 0;
 	}
-	Group(String groupName, int kurs){
+	public Group(String groupName, int kurs, int inYear, int outYear) {
 		this.groupName = groupName;
 		this.kurs = kurs;
-		this.student = new LinkedList<Student>();
-		this.teacher = new LinkedList<Teacher>();
+		this.student = new LinkedList<>();
+		this.teacher = new LinkedList<>();
+		this.inYear = inYear;
+		this.outYear = outYear;
 	}
 
 	public void setGroupName(String groupName) {
@@ -36,9 +42,24 @@ public class Group {
 	public int getKurs() {
 		return kurs;
 	}
+	public int getInYear() {
+		return inYear;
+	}
+
+	public void setInYear(int inYear) {
+		this.inYear = inYear;
+	}
+
+	public int getOutYear() {
+		return outYear;
+	}
+
+	public void setOutYear(int outYear) {
+		this.outYear = outYear;
+	}
 
 	public String toString() {
-		return groupName + ", " + kurs + "\n";
+		return groupName + ", " + kurs + ", in year" + inYear + ", number of students - " + student.size();
 	}
 
 	public void addStudent (Student studentAdd){

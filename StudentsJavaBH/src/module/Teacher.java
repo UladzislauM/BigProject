@@ -1,6 +1,9 @@
-package package1;
+package module;
 
-public class Teacher extends People{
+import base.Address;
+import base.People;
+
+public class Teacher extends People {
 	
 	private int salary;
 	
@@ -20,7 +23,7 @@ public class Teacher extends People{
     	this.salary = salary;
     }
 
-    public int gelSalry() {
+    public int getSalary() {
     	return salary;
     }
  
@@ -30,7 +33,7 @@ public class Teacher extends People{
 	}
 	
 	public String toString() {
-		return getName() + ", " + getLastName() + ", " + getAge() + ", " + salary 
-				+"\n";
+		return getName() + ", " + getLastName() + ", " + getAge() + ", "
+				+ salary + ", " + getGender() + " |T|";
 	}
 }

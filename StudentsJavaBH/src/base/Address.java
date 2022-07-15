@@ -1,4 +1,4 @@
-package package1;
+package base;
 
 public class Address {
 	 private String city;

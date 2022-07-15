@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="addLesson10Task">
+    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="AddLesson5TaskAlfa0.5">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/util/NamesSortedComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lesson8" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,12 +54,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/GitHub/BigProject"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "D:/GitHub/Java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="package1.Main" />
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StudentsJavaBH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,14 +81,6 @@
       <option name="presentableId" value="Default" />
       <updated>1656647470585</updated>
     </task>
-    <task id="LOCAL-00001" summary="addLesson10Task">
-      <created>1657800113757</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1657800113757</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +95,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="addLesson10Task" />
-    <option name="LAST_COMMIT_MESSAGE" value="addLesson10Task" />
+    <MESSAGE value="addLesson8" />
+    <option name="LAST_COMMIT_MESSAGE" value="addLesson8" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BigProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1656762641356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
