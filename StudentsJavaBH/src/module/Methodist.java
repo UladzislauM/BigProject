@@ -13,8 +13,8 @@ public class Methodist extends Teacher {
         this.teachers = new LinkedList<>();
     }
 
-    public Methodist(LinkedList<Teacher> teachers) {
-        this.teachers = teachers;
+    public Methodist() {
+        teachers = new LinkedList<>();
     }
 
     public LinkedList<Teacher> getTeachers() {

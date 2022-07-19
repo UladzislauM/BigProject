@@ -5,7 +5,7 @@ import base.People;
 
 public class Student extends People {
 
-	Student(){
+	public Student(){
 		super("UndefinedS", "UndefinedS", 0,
 				new Address(), "UndefinedS");
 	}

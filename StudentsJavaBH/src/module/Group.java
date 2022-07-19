@@ -10,7 +10,7 @@ public class Group {
 	private int inYear;
 	private int outYear;
 
-	Group(){
+	public Group(){
 		this.groupName = "Undefind";
 		this.kurs = 0;
 		this.student = new LinkedList<Student>();

@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="AddLesson5TaskAlfa0.5">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/util/NamesSortedComparator.java" afterDir="false" />
+    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="addLesson10Task1,2">
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepositoryExtend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/GroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/PeopleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -52,18 +58,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/GitHub/Java",
+    "last_opened_file_path": "D:/LessonsBH/MarshalauUladzislau",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="service.impl" />
+      <recent name="service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="util.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TeacherTest.ageTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StudentsJavaBH" />
@@ -71,6 +99,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupTest.addStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentsJavaBH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GroupTest" />
+      <option name="METHOD_NAME" value="addStudentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupTest.dellStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentsJavaBH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.GroupTest" />
+      <option name="METHOD_NAME" value="dellStudentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest.ageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentsJavaBH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
+      <option name="METHOD_NAME" value="ageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest.getSalaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentsJavaBH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
+      <option name="METHOD_NAME" value="getSalaryTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeacherTest.payRollCalculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StudentsJavaBH" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
+      <option name="METHOD_NAME" value="payRollCalculationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TeacherTest.ageTest" />
+        <item itemvalue="JUnit.GroupTest.dellStudentTest" />
+        <item itemvalue="JUnit.GroupTest.addStudentTest" />
+        <item itemvalue="JUnit.TeacherTest.getSalaryTest" />
+        <item itemvalue="JUnit.TeacherTest.payRollCalculationTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -82,6 +199,9 @@
       <updated>1656647470585</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

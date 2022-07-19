@@ -37,7 +37,11 @@ public abstract class People implements Comparable<People>{
 		return age;
 	}
 	public void setAge(int age) {
-		this.age = age;
+		if(age <= 0){
+			System.out.println("the age cannot be less than 0");
+		}else {
+			this.age = age;
+		}
 	}
 	public Address getAddress() {
 		return address;

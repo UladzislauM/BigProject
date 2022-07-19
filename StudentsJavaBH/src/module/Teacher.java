@@ -28,8 +28,13 @@ public class Teacher extends People {
     }
  
 	public int payRollCalculation(int hoursWorked, int costPerHour) {
+
 		salary = hoursWorked * costPerHour;
-		return salary;
+		if(salary < 0){
+			return 0;
+		} else {
+			return salary;
+		}
 	}
 	
 	public String toString() {
