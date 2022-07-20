@@ -1,7 +1,7 @@
-package service;
+package com.company.service;
 
-import module.Group;
-import module.Student;
+import com.company.module.Group;
+import com.company.module.Student;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

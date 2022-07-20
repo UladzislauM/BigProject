@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="addLesson10Task1,2">
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepositoryExtend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/GroupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/PeopleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/service/TeacherTest.java" afterDir="false" />
+    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="addLesson12TasksNotStar">
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/base/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/repository/PeopleRepositoryExtend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/service/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/GroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/service/PeopleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/service/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/util/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/util/NamesSortedComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/NamesSortedComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +44,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson8" />
+        <entry key="$PROJECT_DIR$" value="Lesson11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,12 +69,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "D:/LessonsBH/MarshalauUladzislau",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "D:/GitHub/BigProject",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
@@ -93,7 +98,7 @@
   </component>
   <component name="RunManager" selected="JUnit.TeacherTest.ageTest">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="StudentsJavaBH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,7 +108,7 @@
       <module name="StudentsJavaBH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,7 +124,7 @@
       <module name="StudentsJavaBH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,7 +140,7 @@
       <module name="StudentsJavaBH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,7 +156,7 @@
       <module name="StudentsJavaBH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,7 +172,7 @@
       <module name="StudentsJavaBH" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="com.company.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,7 +202,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656647470585</updated>
+      <workItem from="1658257775235" duration="1850000" />
     </task>
+    <task id="LOCAL-00001" summary="addLesson12TasksNotStar">
+      <created>1658255572898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658255572898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addLesson8" />
-    <option name="LAST_COMMIT_MESSAGE" value="addLesson8" />
+    <MESSAGE value="addLesson12TasksNotStar" />
+    <option name="LAST_COMMIT_MESSAGE" value="addLesson12TasksNotStar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1656762641356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

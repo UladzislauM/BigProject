@@ -1,6 +1,6 @@
-package service;
+package com.company.service;
 
-import module.Teacher;
+import com.company.module.Teacher;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

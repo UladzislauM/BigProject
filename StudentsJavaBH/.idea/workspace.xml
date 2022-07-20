@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1b144988-b25f-45d7-aad8-dc744c90b73f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/base/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/module/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/module/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/PeopleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/PeopleRepositoryExtend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/repository/PeopleRepositoryExtend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/GroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/PeopleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/PeopleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/util/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/NamesSortedComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/util/NamesSortedComparator.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2CAuYPZ8ojKuQJVc8a3WDtYWArt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/GitHub/BigProject"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1b144988-b25f-45d7-aad8-dc744c90b73f" name="Changes" comment="" />
+      <created>1658257756868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658257756868</updated>
+      <workItem from="1658257758247" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

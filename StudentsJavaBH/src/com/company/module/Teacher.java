@@ -1,7 +1,7 @@
-package module;
+package com.company.module;
 
-import base.Address;
-import base.People;
+import com.company.base.Address;
+import com.company.base.People;
 
 public class Teacher extends People {
 	

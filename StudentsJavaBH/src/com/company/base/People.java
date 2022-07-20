@@ -1,6 +1,4 @@
-package base;
-
-import base.Address;
+package com.company.base;
 
 public abstract class People implements Comparable<People>{
 

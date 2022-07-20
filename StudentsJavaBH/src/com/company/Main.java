@@ -1,10 +1,12 @@
-import base.People;
-import module.Group;
-import module.Methodist;
-import module.Student;
-import module.Teacher;
-import util.Converter;
-import util.NamesSortedComparator;
+package com.company;
+
+import com.company.base.People;
+import com.company.module.Group;
+import com.company.module.Methodist;
+import com.company.module.Student;
+import com.company.module.Teacher;
+import com.company.util.Converter;
+import com.company.util.NamesSortedComparator;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,6 @@
-package module;
+package com.company.module;
 
-import base.Address;
+import com.company.base.Address;
 
 import java.util.LinkedList;
 

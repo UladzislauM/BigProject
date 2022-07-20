@@ -1,6 +1,6 @@
-package util;
+package com.company.util;
 
-import base.People;
+import com.company.base.People;
 
 import java.util.Comparator;
 

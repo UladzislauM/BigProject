@@ -1,4 +1,4 @@
-package base;
+package com.company.base;
 
 public class Address {
 	 private String city;
