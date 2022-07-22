@@ -1,6 +1,5 @@
 package com.company.module;
 
-import com.company.base.Address;
 import com.company.base.People;
 
 public class Teacher extends People {

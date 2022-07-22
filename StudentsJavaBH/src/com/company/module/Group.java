@@ -1,5 +1,8 @@
 package com.company.module;
 
+import org.junit.experimental.theories.Theories;
+
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Group {
@@ -18,11 +21,16 @@ public class Group {
 		this.inYear = 0;
 		this.outYear = 0;
 	}
-	public Group(String groupName, int kurs, int inYear, int outYear) {
+	public Group(String groupName, int kurs, int inYear, int outYear,
+				 LinkedList<Student> students, LinkedList<Teacher> teachers) {
 		this.groupName = groupName;
 		this.kurs = kurs;
-		this.student = new LinkedList<>();
-		this.teacher = new LinkedList<>();
+		this.student = new LinkedList<Student>(){{
+			addAll(students);
+		}};
+		this.teacher = new LinkedList<Teacher>(){{
+			addAll(teachers);
+		}};
 		this.inYear = inYear;
 		this.outYear = outYear;
 	}
@@ -59,7 +67,8 @@ public class Group {
 	}
 
 	public String toString() {
-		return groupName + ", " + kurs + ", in year" + inYear + ", number of students - " + student.size();
+		return groupName + ", " + kurs + ", in year" + inYear
+				+ ", number of students - " + student.size();
 	}
 
 	public void addStudent (Student studentAdd){

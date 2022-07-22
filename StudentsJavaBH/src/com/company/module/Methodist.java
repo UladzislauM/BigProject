@@ -1,7 +1,5 @@
 package com.company.module;
 
-import com.company.base.Address;
-
 import java.util.LinkedList;
 
 public class Methodist extends Teacher {

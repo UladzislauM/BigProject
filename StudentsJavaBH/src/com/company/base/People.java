@@ -1,5 +1,7 @@
 package com.company.base;
 
+import com.company.module.Address;
+
 public abstract class People implements Comparable<People>{
 
 

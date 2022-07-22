@@ -1,4 +1,4 @@
-package com.company.service;
+package com.company.tests;
 
 import com.company.module.Group;
 import com.company.module.Student;
