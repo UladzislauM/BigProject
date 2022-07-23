@@ -34,10 +34,16 @@ public class TeacherService {
     //________________________________________________
 
     //Метод фильтрации учителей на пенсии с выводом на экран
-    public void teachersOnRetiredFilter(List<Teacher> teachers){
+    public void teachersOnRetiredFilter(){
         System.out.println("Start method teachersOnRetiredFilter");
-        teacherRepository.teachersOnRetiredFilter(teachers);
-        teachers.stream()
+        teacherRepository.teachersOnRetiredFilter().stream()
                 .forEach(System.out::println);
+    }
+
+    //Метод фильтрации учителей по ЗП выше 2000 с выводом на экран
+    public void teachersAbove2000Filter(){
+        System.out.println("Start method teachersAbove2000Filter");
+        teacherRepository.teachersAbove2000Filter().stream()
+                        .forEach(System.out::println);
     }
 }

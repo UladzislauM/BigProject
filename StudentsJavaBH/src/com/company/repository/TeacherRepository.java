@@ -27,11 +27,20 @@ public class TeacherRepository {
     }
 
     //Фильтр учителей на пенсии
-    public List<Teacher> teachersOnRetiredFilter(List<Teacher> teachers){
-        List<Teacher> finalTeacher = new ArrayList<>();
+    public List<Teacher> teachersOnRetiredFilter(){
+        List<Teacher> finalTeachers = new ArrayList<>();
         teachers.stream()
                 .filter(x->x.getGender().equals("retired"))
-                .forEach(s -> finalTeacher.add(s));
-        return finalTeacher;
+                .forEach(s -> finalTeachers.add(s));
+        return finalTeachers;
+    }
+
+    //Фильтр учителей с ЗП выше 2000
+    public List<Teacher> teachersAbove2000Filter(){
+        List<Teacher> finalTeachers = new ArrayList<>();
+        teachers.stream()
+                .filter(x->x.getSalary() > 2000)
+                .forEach(s -> finalTeachers.add(s));
+        return finalTeachers;
     }
 }

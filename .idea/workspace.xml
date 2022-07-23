@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="AddLesson13">
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/groupsFile.txt" afterDir="false" />
+    <list default="true" id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="AddLesson13Alfa0.2">
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/PeopleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/PeopleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/StudentsJavaBH.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/groupsFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/methodistFile.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/GroupRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/MethodistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/MethodistRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/GroupService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/MethodistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/MethodistService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/Service.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/GroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Exrption.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/studentsFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/teachersFile.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,7 +63,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/GitHub/BigProject",
+    "last_opened_file_path": "D:/Java/MarshalauUladzislau",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -68,14 +75,25 @@
       <recent name="com.company.tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="BigProject" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="StudentsJavaBH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="maintest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <module name="StudentsJavaBH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.maintest" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658564461343</updated>
-      <workItem from="1658564464278" duration="6005000" />
+      <workItem from="1658564464278" duration="15951000" />
     </task>
     <task id="LOCAL-00001" summary="AddLesson13">
       <created>1658565590443</created>
@@ -94,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658565590443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="AddLesson13Alfa0.2">
+      <created>1658576234271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658576234271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +138,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AddLesson13" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddLesson13" />
+    <MESSAGE value="AddLesson13Alfa0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="AddLesson13Alfa0.2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1656762641356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -9,11 +9,12 @@ import java.util.List;
 
 public class GroupService {
     private GroupRepository groupRepository;
-
+    //Создаем конструктор и получаем данные из репозитория
     public GroupService(GroupRepository groupRepository){
         this.groupRepository = groupRepository;
     }
-
+    //Методы получения, добавления и удаления Групп
+    //________________________________________________
     public List<Group> getGroups() {
         System.out.println("Start method getGroups");
         List<Group> groups = groupRepository.getGroups();
@@ -29,5 +30,13 @@ public class GroupService {
         System.out.println("Start method removeGroup");
         groupRepository.removeGroup(removeGroup);
         System.out.println(groupRepository.getGroups());
+    }
+    //_____________________________________________________
+
+    //Метод фильтрации групп с заданным выпуском и выводом на экран
+    public void groupsOutFilter(int fromX, int toX){
+        System.out.println("Start method groupsOutFilter");
+        groupRepository.groupsOutFilter(fromX, toX).stream()
+                .forEach(System.out::println);
     }
 }

@@ -1,0 +1,6 @@
+Tatyana Mex 62 Minsk Adoeyskaga 12 34 str. 1500 retired
+Eyheniya Genzus 28 Minsk Gamarnika 3 9 str. 1800 youngSpecialist
+Haliana Sidoric	29 Brest Sovetskaya 43 18 str. 5400 femaleSpecialist
+Yauheni Lastovich 28 Minsk Odincova 79 44 str. 2500 maleSpecialist
+Andrey Acsenov 32 Moscow Kirova 23 67 str. 3800 maleSpecialist
+Semen Acsenov 66 Minsk Sharangovicha str. 54 18 2100 retired

@@ -13,28 +13,42 @@ public class Parser {
 
     public static String readFile(String puth) throws IOException {
         FileReader fileReader = null;
-        FileWriter fileWriter = null;
+
         String str = " ";
         try {
             fileReader = new FileReader(puth);
-            fileWriter = new FileWriter(puth);
 
             int a;
             while ((a = fileReader.read()) != -1) {
-//                fileWriter.write(a);
                 str += (char) a;
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } finally {
             if (fileReader != null) {
                 fileReader.close();
             }
+        }
+        return str;
+    }
+    public static void writeFile(String puth, String person) throws IOException {
+        FileReader fileReader = null;
+        FileWriter fileWriter = null;
+        String str = " ";
+        try {
+            fileWriter = new FileWriter(puth);
+
+            int a;
+
+                fileWriter.write(person);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
             if (fileWriter != null) {
                 fileWriter.close();
             }
         }
-        return str;
     }
     //Методы для добавления в конструктор репозитория разных коллекций
     //_________________________________________________________________________
@@ -94,14 +108,14 @@ public class Parser {
         //В цикле каждая итерация - новая строка файла -
         // - делим ее на слова (по пробелам) - записываем в учителя нужные строки
         for (String x : stringSplit) {
-            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" ")));
+            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" |\t")));
 
             address = new Address(stringList.get(3), stringList.get(4),
                     Integer.parseInt(stringList.get(5)), Integer.parseInt(stringList.get(6)));
 
             teachersList.add(new Teacher(stringList.get(0), stringList.get(1),
-                    Integer.parseInt(stringList.get(2)), address, Integer.parseInt(stringList.get(7)),
-                    stringList.get(8)));
+                    Integer.parseInt(stringList.get(2)), address, Integer.parseInt(stringList.get(8)),
+                    stringList.get(9)));
         }
         //Возвращаем коллекцию учителей
         return teachersList;

@@ -59,6 +59,11 @@ public abstract class People implements Comparable<People>{
 	}
 
 	@Override
+	public String toString() {
+		return name + " " + lastName + " " + age +
+				" " + address + " " + gender;
+	}
+
 	public int compareTo(People o) {
 		if(lastName.compareTo(o.getLastName()) == 0){
 			if (age - o.getAge() == 0){

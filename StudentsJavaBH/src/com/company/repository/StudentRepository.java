@@ -15,12 +15,15 @@ public class StudentRepository {
         this.students = Parser.parsStudent("studentsFile.txt");
     }
 
-    //Методы добавления, удаления и получения данныхк Студентам
+    //Методы добавления, удаления, записи в файл и получения данных к Студентам
     public void addStudent(Student addStudent){
         students.add(addStudent);
     }
     public void removeStudent(Student removeStudent){
         students.remove(removeStudent);
+    }
+    public void writeToFite(List<Student> students){
+
     }
 
     public List<Student> getStudents() {

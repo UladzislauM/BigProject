@@ -8,11 +8,12 @@ import java.util.List;
 
 public class MethodistService {
     private MethodistRepository methodistRepository;
-
+    //Создаем конструктор и получаем данные из репозитория
     public MethodistService(MethodistRepository methodistRepository){
         this.methodistRepository = methodistRepository;
     }
-
+    //Методы получения, добавления и удаления методистов
+    //________________________________________________
     public List<Methodist> getMethodists() {
         System.out.println("Start method getMethodists");
         List<Methodist> methodists = methodistRepository.getMethodists();
@@ -29,6 +30,7 @@ public class MethodistService {
         methodistRepository.removeMethodist(removeMethodist);
         System.out.println(methodistRepository.getMethodists());
     }
+    //_________________________________________________
 
     //Метод конвертации учителя в методиста
     public Methodist convertTeacherMethodistand(Teacher teacher, Methodist methodist) {

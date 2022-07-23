@@ -11,11 +11,13 @@ import java.util.List;
 
 public class MethodistRepository {
     private List<Methodist> methodists = new ArrayList<>();
+
     //Создаем конструктор для передачи данных из файла в сервис
     public MethodistRepository() throws IOException {
         this.methodists = Parser.parsMethodist("methodistFile.txt");
     }
-    //Методы добавления, удаления и получения данныхк Методистом
+
+    //Методы добавления, удаления и получения данных к Методистом
     public void addMethodist(Methodist addMethodist){
         methodists.add(addMethodist);
     }
