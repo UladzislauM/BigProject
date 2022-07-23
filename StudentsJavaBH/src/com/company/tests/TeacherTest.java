@@ -8,7 +8,6 @@ import org.junit.Test;
 public class TeacherTest {
  private Teacher teacher;
 
-    @Before
     public void setUp() {
        teacher = new Teacher("Djin", "Lampivi",
                105, null, 0, "G");

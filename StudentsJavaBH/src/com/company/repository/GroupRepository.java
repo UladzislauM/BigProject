@@ -10,15 +10,15 @@ import java.util.List;
 public class GroupRepository {
     private List<Group> groups = new ArrayList<>();
 
-    public GroupRepository() {
-//        this.groups =
+    public GroupRepository() throws IOException {
+        this.groups = Parser.parsGroups("groupsFile.txt");
     }
 
-    public void addGroups(List<Group> addGroups){
-        groups.addAll(addGroups);
+    public void addGroup(Group addGroup){
+        groups.add(addGroup);
     }
-    public void removeGroups(List<Group> removeGroups) {
-        groups.removeAll(removeGroups);
+    public void removeGroup(Group removeGroup) {
+        groups.remove(removeGroup);
     }
 
         public List<Group> getGroups(){

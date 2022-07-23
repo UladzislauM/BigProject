@@ -1,9 +1,6 @@
 package com.company.util;
 
-import com.company.module.Address;
-import com.company.module.Methodist;
-import com.company.module.Student;
-import com.company.module.Teacher;
+import com.company.module.*;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -53,9 +50,14 @@ public class Parser {
         String str = readFile(puthMethodist);
         return readMethodist(str);
     }
+    public static List<Group> parsGroups(String puthGroup) throws IOException {
+        String str = readFile(puthGroup);
+        return readGroups(str);
+    }
 
     //__________________________________________________________________________
 
+    //Методы для обработки текста из файлов
     private static List<Student> readStudent(String str){
         //Создаем необходимые коллекции для хранения данных
         List<String> stringList;
@@ -127,6 +129,30 @@ public class Parser {
         }
         //Возвращаем коллекцию методистов
         return methodistList;
+    }
+    private static List<Group> readGroups(String str){
+        //Создаем необходимые коллекции для хранения данных
+        List<String> stringList;
+        List<Group> groupsList = new ArrayList<>();
+        Address address;
+
+        //Делим данные файла на строки
+        List<String> stringSplit = Arrays.asList(str.split("\n"));
+
+        //В цикле каждая итерация - новая строка файла -
+        // - делим ее на слова (по пробелам) - записываем в группу нужные строки
+        for (String x : stringSplit) {
+            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" ")));
+
+            address = new Address(stringList.get(3), stringList.get(4),
+                    Integer.parseInt(stringList.get(5)), Integer.parseInt(stringList.get(6)));
+
+            groupsList.add(new Group(stringList.get(0), Integer.parseInt(stringList.get(1)),
+                    Integer.parseInt(stringList.get(2)), Integer.parseInt(stringList.get(3)),
+                    null, null));
+        }
+        //Возвращаем коллекцию методистов
+        return groupsList;
     }
 }
 

@@ -6,13 +6,14 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class GroupTest {
 
     private Group group;
 
     @Before
     public void setUp(){
-        group = new Group("11a", 1, 2019, 2023);
+        group = new Group("11a", 1, 2019, 2023, null, null);
 
         group.addStudent(new Student());
 

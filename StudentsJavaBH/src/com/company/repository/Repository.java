@@ -89,13 +89,13 @@ public class Repository {
     //_________________________________________________________________
 
     //Конвертация и добавление Учителя в Методиста
-    public Methodist convertTeacherMethodist(Teacher teacher){
-        Converter<Teacher, Methodist> converter = x ->
-                new Methodist(x.getName(), x.getLastName(), x.getAge(),
-                        null, x.getSalary(), x.getGender()
-                        + " (Methodist)", null);
-        return converter.convert(teacher);
-    }
+//    public Methodist convertTeacherMethodist(Teacher teacher){
+//        Converter<Teacher, Methodist> converter = x ->
+//                new Methodist(x.getName(), x.getLastName(), x.getAge(),
+//                        null, x.getSalary(), x.getGender()
+//                        + " (Methodist)", null);
+//        return converter.convert(teacher);
+//    }
 
 
     public List<Methodist> getMethodists() {
