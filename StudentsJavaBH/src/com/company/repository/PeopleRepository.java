@@ -13,17 +13,17 @@ import java.util.List;
 
 public class PeopleRepository {
     private List<People> peoples = new ArrayList<>();
-    private StudentService studentService;
-    private TeacherService teacherService;
-    private MethodistService methodistService;
+    private StudentRepository studentRepository = new StudentRepository();
+    private TeacherRepository teacherRepository = new TeacherRepository();
+    private MethodistRepository methodistRepository = new MethodistRepository();
 
     //Создаем конструктор для создания и заполнения всего персонала
-    public PeopleRepository(){
-        teacherService.getTeachers().stream()
+    public PeopleRepository() throws IOException {
+        teacherRepository.getTeachers().stream()
                         .forEach(t -> this.peoples.add(t));
-        methodistService.getMethodists().stream()
+        methodistRepository.getMethodists().stream()
                         .forEach(m -> this.peoples.add(m));
-        studentService.getStudents().stream()
+        studentRepository.getStudents().stream()
                         .forEach(s -> this.peoples.add(s));
     }
     //Методы добавления, удаления и получения данных к персоналу

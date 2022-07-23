@@ -35,6 +35,15 @@ public class Group {
 		this.outYear = outYear;
 	}
 
+public Group(String groupName, int kurs, int inYear, int outYear) {
+		this.groupName = groupName;
+		this.kurs = kurs;
+		this.student = new LinkedList<Student>();
+		this.teacher = new LinkedList<Teacher>();
+		this.inYear = inYear;
+		this.outYear = outYear;
+	}
+
 	public void setGroupName(String groupName) {
 		this.groupName = groupName;
 	}

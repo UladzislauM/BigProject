@@ -16,26 +16,29 @@ public class GroupService {
     //Методы получения, добавления и удаления Групп
     //________________________________________________
     public List<Group> getGroups() {
-        System.out.println("Start method getGroups");
+        System.out.println("Start method getGroups\n-------------------");
         List<Group> groups = groupRepository.getGroups();
-        System.out.println(groups);
+        groups.stream()
+                .forEach(System.out::println);
         return groups;
     }
     public void addGroup (Group addGroup){
-        System.out.println("Start method addGroup");
+        System.out.println("Start method addGroup\n-------------------");
         groupRepository.addGroup(addGroup);
-        System.out.println(groupRepository.getGroups());
+        groupRepository.getGroups().stream()
+                .forEach(System.out::println);
     }
     public void removeGroup(Group removeGroup){
-        System.out.println("Start method removeGroup");
+        System.out.println("Start method removeGroup\n-------------------");
         groupRepository.removeGroup(removeGroup);
-        System.out.println(groupRepository.getGroups());
+        groupRepository.getGroups().stream()
+                .forEach(System.out::println);
     }
     //_____________________________________________________
 
     //Метод фильтрации групп с заданным выпуском и выводом на экран
     public void groupsOutFilter(int fromX, int toX){
-        System.out.println("Start method groupsOutFilter");
+        System.out.println("Start method groupsOutFilter\n-------------------");
         groupRepository.groupsOutFilter(fromX, toX).stream()
                 .forEach(System.out::println);
     }

@@ -16,33 +16,36 @@ public class TeacherService {
     //Методы получения, добавления и удаления учителей
     //________________________________________________
     public List<Teacher> getTeachers() {
-        System.out.println("Start method getTeacher");
+        System.out.println("Start method getTeacher\n-------------------");
         List<Teacher> teachersList = teacherRepository.getTeachers();
-        System.out.println(teachersList);
+        teachersList.stream()
+                .forEach(System.out::println);
         return teachersList;
     }
     public void addTeacher (Teacher addTeacher){
-        System.out.println("Start method addTeacher");
+        System.out.println("Start method addTeacher\n-------------------");
         teacherRepository.addTeacher(addTeacher);
-        System.out.println(teacherRepository.getTeachers());
+        teacherRepository.getTeachers().stream()
+                .forEach(System.out::println);
     }
     public void removeTeacher(Teacher removeTeacher){
-        System.out.println("Start method removeTeacher");
+        System.out.println("Start method removeTeacher\n-------------------");
         teacherRepository.removeTeacher(removeTeacher);
-        System.out.println(teacherRepository.getTeachers());
+        teacherRepository.getTeachers().stream()
+                .forEach(System.out::println);
     }
     //________________________________________________
 
     //Метод фильтрации учителей на пенсии с выводом на экран
     public void teachersOnRetiredFilter(){
-        System.out.println("Start method teachersOnRetiredFilter");
+        System.out.println("Start method teachersOnRetiredFilter\n-------------------");
         teacherRepository.teachersOnRetiredFilter().stream()
                 .forEach(System.out::println);
     }
 
     //Метод фильтрации учителей по ЗП выше 2000 с выводом на экран
     public void teachersAbove2000Filter(){
-        System.out.println("Start method teachersAbove2000Filter");
+        System.out.println("Start method teachersAbove2000Filter\n-------------------");
         teacherRepository.teachersAbove2000Filter().stream()
                         .forEach(System.out::println);
     }

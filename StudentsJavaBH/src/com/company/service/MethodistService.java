@@ -15,33 +15,34 @@ public class MethodistService {
     //Методы получения, добавления и удаления методистов
     //________________________________________________
     public List<Methodist> getMethodists() {
-        System.out.println("Start method getMethodists");
+        System.out.println("Start method getMethodists\n-------------------");
         List<Methodist> methodists = methodistRepository.getMethodists();
-        System.out.println(methodists);
+        methodists.stream()
+                .forEach(System.out::println);
         return methodists;
     }
     public void addMethodist (Methodist addMethodist){
-        System.out.println("Start method addMethodist");
+        System.out.println("Start method addMethodist\n-------------------");
         methodistRepository.addMethodist(addMethodist);
-        System.out.println(methodistRepository.getMethodists());
+        methodistRepository.getMethodists().stream().forEach(System.out::println);
     }
     public void removeMethodist(Methodist removeMethodist){
-        System.out.println("Start method removeMethodist");
+        System.out.println("Start method removeMethodist\n-------------------");
         methodistRepository.removeMethodist(removeMethodist);
-        System.out.println(methodistRepository.getMethodists());
+        methodistRepository.getMethodists().stream().forEach(System.out::println);
     }
     //_________________________________________________
 
     //Метод конвертации учителя в методиста
     public Methodist convertTeacherMethodistand(Teacher teacher, Methodist methodist) {
-        System.out.println("Start method convertTeacherMethodist");
+        System.out.println("Start method convertTeacherMethodist\n-------------------");
         methodist = methodistRepository.convertTeacherMethodist(teacher);
         methodistRepository.getMethodists().stream().forEach(System.out::println);
         return methodist;
     }
     //добавление подчиненных учителей к методисту
     public void addTheacherToMetodist(int index, Teacher teacher){
-        System.out.println("Start method addTeacherToMethodist");
+        System.out.println("Start method addTeacherToMethodist\n-------------------");
         methodistRepository.addTeachertoMethodist(index, teacher);
         methodistRepository.getMethodists().stream().forEach(System.out::println);
     }

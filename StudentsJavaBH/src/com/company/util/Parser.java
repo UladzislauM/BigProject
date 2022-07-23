@@ -132,14 +132,14 @@ public class Parser {
         //В цикле каждая итерация - новая строка файла -
         // - делим ее на слова (по пробелам) - записываем в учителя нужные строки
         for (String x : stringSplit) {
-            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" ")));
+            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" |\t")));
 
             address = new Address(stringList.get(3), stringList.get(4),
                     Integer.parseInt(stringList.get(5)), Integer.parseInt(stringList.get(6)));
 
             methodistList.add(new Methodist(stringList.get(0), stringList.get(1),
-                    Integer.parseInt(stringList.get(2)), address, Integer.parseInt(stringList.get(7)),
-                    stringList.get(8)));
+                    Integer.parseInt(stringList.get(2)), address, Integer.parseInt(stringList.get(8)),
+                    stringList.get(9)));
         }
         //Возвращаем коллекцию методистов
         return methodistList;
@@ -156,14 +156,10 @@ public class Parser {
         //В цикле каждая итерация - новая строка файла -
         // - делим ее на слова (по пробелам) - записываем в группу нужные строки
         for (String x : stringSplit) {
-            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" ")));
-
-            address = new Address(stringList.get(3), stringList.get(4),
-                    Integer.parseInt(stringList.get(5)), Integer.parseInt(stringList.get(6)));
+            stringList = new ArrayList<>(Arrays.asList(x.trim().split(" |\t")));
 
             groupsList.add(new Group(stringList.get(0), Integer.parseInt(stringList.get(1)),
-                    Integer.parseInt(stringList.get(2)), Integer.parseInt(stringList.get(3)),
-                    null, null));
+                    Integer.parseInt(stringList.get(2)), Integer.parseInt(stringList.get(3))));
         }
         //Возвращаем коллекцию методистов
         return groupsList;
