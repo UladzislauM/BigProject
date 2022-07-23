@@ -34,12 +34,12 @@ public class Repository {
     public void removeMethodist(Methodist removeMethodist){
         methodists.remove(removeMethodist);
     }
-    public void addStudent(int numGroup, Student addStudent){
-        groups.get(numGroup).addStudent(addStudent);
-    }
-    public void removeStudent(int numGroup, Student removeStudent){
-        groups.get(numGroup).dellStudent(removeStudent);
-    }
+//    public void addStudent(int numGroup, Student addStudent){
+//        groups.get(numGroup).addStudent(addStudent);
+//    }
+//    public void removeStudent(int numGroup, Student removeStudent){
+//        groups.get(numGroup).dellStudent(removeStudent);
+//    }
     public void addTeacher(Teacher addTeacher){
         teachers.add(addTeacher);
     }

@@ -1,9 +1,9 @@
-Vas Blinsk 28 Minsk Dzerjinskogo str. 25 Student
-Jek Blinsk 27 Minsk Grusheuskaya str. 11 Student
-Vlad Mir 29 Minsk Kopievicha str. 7 Student
-Vlad Usachev 22 Orsha Dzerjinskogo str. 3 Student
-Yauheni Zablotski 24 Svihlevo Krinichnaya str. 7 Student
-Alex Puchin 26 Minsk Peramojcay str. 84 Student
-Dmitry Pushnoy 28 Moskow OchotnuiRad str. 4 Student
-Roman Shatsov 25 Minsk Karbisheva str. 11 Student
-Vitaly Shatsov 24 Minsk Tikotskaga str. 69 Student
+Vas Blinsk 28 Minsk Dzerjinskogo 3 4 str. Student
+Jek Blinsk 27 Minsk Grusheuskaya 12 25 str. Student
+Vlad Mir 29 Minsk Kopievicha 25 36 str. Student
+Vlad Usachev 22 Orsha Dzerjinskogo 32 5 str. Student
+Yauheni Zablotski 24 Svihlevo Krinichnaya 11 18 str. Student
+Alex Puchin 26 Minsk Peramojcay 7 89 str. Student
+Dmitry Pushnoy 28 Moskow OchotnuiRad 4 55 str. Student
+Roman Shatsov 25 Minsk Karbisheva 3 51 str. Student
+Vitaly Shatsov 24 Minsk Tikotskaga 7 90 str. Student

@@ -3,14 +3,15 @@ package com.company.repository;
 import com.company.module.Group;
 import com.company.util.Parser;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class GroupRepository {
     private List<Group> groups = new ArrayList<>();
 
-    public GroupRepository(){
-//        this.groups = Parser
+    public GroupRepository() {
+//        this.groups =
     }
 
     public void addGroups(List<Group> addGroups){

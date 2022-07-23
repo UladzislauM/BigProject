@@ -1,57 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="addLesson12TasksStar">
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/GroupRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/MethodistRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/GroupService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/MethodistService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Exrption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/studentsFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_14_15_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_14_07_2022_14_15__Changes_.xml" beforeDir="false" />
+    <list default="true" id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="MergeMainLesson11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/base/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/MethodistRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/MethodistRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/GroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/GroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/tests/TeacherTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/studentsFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/studentsFile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Interface" />
-        <option value="AnnotationType" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lesson12" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,175 +30,42 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectId" id="2BKGekEscfBd1oFkjpvwkNGyjct" />
+  <component name="ProjectId" id="2Bys6yK7UwGpl8fGlgjouwnjUms" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/BigProject&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/GitHub/BigProject",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="service.impl" />
-      <recent name="service" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="util.service" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="StudentsJavaBH" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BigProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupTest.addStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentsJavaBH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.GroupTest" />
-      <option name="METHOD_NAME" value="addStudentTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GroupTest.dellStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentsJavaBH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.GroupTest" />
-      <option name="METHOD_NAME" value="dellStudentTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherTest.ageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentsJavaBH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
-      <option name="METHOD_NAME" value="ageTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherTest.getSalaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentsJavaBH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
-      <option name="METHOD_NAME" value="getSalaryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TeacherTest.payRollCalculationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StudentsJavaBH" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="service" />
-      <option name="MAIN_CLASS_NAME" value="service.TeacherTest" />
-      <option name="METHOD_NAME" value="payRollCalculationTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TeacherTest.ageTest" />
-        <item itemvalue="JUnit.GroupTest.dellStudentTest" />
-        <item itemvalue="JUnit.GroupTest.addStudentTest" />
-        <item itemvalue="JUnit.TeacherTest.getSalaryTest" />
-        <item itemvalue="JUnit.TeacherTest.payRollCalculationTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="" />
-      <created>1656647470585</created>
+      <changelist id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="MergeMainLesson11" />
+      <created>1658564461343</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1656647470585</updated>
-      <workItem from="1658257775235" duration="2473000" />
-      <workItem from="1658372684925" duration="6521000" />
-      <workItem from="1658458478628" duration="3445000" />
+      <updated>1658564461343</updated>
+      <workItem from="1658564464278" duration="755000" />
     </task>
-    <task id="LOCAL-00001" summary="addLesson12TasksNotStar">
-      <created>1658255572898</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1658255572898</updated>
-    </task>
-    <task id="LOCAL-00002" summary="addLesson12TasksStar">
-      <created>1658287915922</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658287915922</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,12 +81,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="addLesson8" />
-    <MESSAGE value="addLesson12TasksNotStar" />
-    <MESSAGE value="addLesson12TasksStar" />
-    <option name="LAST_COMMIT_MESSAGE" value="addLesson12TasksStar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1656762641356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

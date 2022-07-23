@@ -10,6 +10,11 @@ public class Methodist extends Teacher {
         super(name, lastName, age, address, salary, gender);
         this.teachers = new LinkedList<>();
     }
+    public Methodist(String name, String lastName, int age, Address address,
+                     int salary, String gender) {
+        super(name, lastName, age, address, salary, gender);
+        this.teachers = new LinkedList<>();
+    }
 
     public Methodist() {
         teachers = new LinkedList<>();
