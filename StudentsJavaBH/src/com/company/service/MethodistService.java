@@ -43,7 +43,7 @@ public class MethodistService {
     public void addTheacherToMetodist(int index, Teacher teacher){
         System.out.println("Start method addTeacherToMethodist\n-------------------");
         methodistRepository.addTeachertoMethodist(index, teacher);
-        methodistRepository.getMethodists().stream().forEach(System.out::println);
+//        methodistRepository.getMethodists().stream().forEach(System.out::println);
     }
     //Вывод на экран (в консоль)
     public void printToC(){

@@ -53,7 +53,10 @@ public class Main {
         teacherService.removeTeacher(teacherService.getTeachers().get(3));
         teacherService.removeTeacher(teacherService.getTeachers().get(4));
 
-
+        methodistService.addTheacherToMetodist(0,teacherService.getTeachers().get(0));
+        methodistService.addTheacherToMetodist(1,teacherService.getTeachers().get(1));
+        methodistService.addTheacherToMetodist(2,teacherService.getTeachers().get(2));
+        methodistService.addTheacherToMetodist(3,teacherService.getTeachers().get(3));
 
         System.out.println("\nTeachers and methodists before convert: " +
                 "\n-------------------------------------------------");

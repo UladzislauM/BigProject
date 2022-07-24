@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="AddLesson5TaskAlfa0.5">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/util/NamesSortedComparator.java" afterDir="false" />
+    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_07_2022_08_14__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_07_2022_08_14__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_07_2022_05_28__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_23_07_2022_05_28__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BigProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/MainTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/MethodistService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/MethodistService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.1.1/lib/src.zip!/java.base/java/io/FileInputStream.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,6 +53,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -65,8 +70,8 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="StudentsJavaBH" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="BigProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
