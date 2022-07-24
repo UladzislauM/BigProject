@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MethodistRepository {
-    private List<Methodist> methodists = new ArrayList<>();
+    private List<Methodist> methodists;
 
     //Создаем конструктор для передачи данных из файла в сервис
     public MethodistRepository() throws IOException {

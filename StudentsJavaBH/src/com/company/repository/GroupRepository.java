@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GroupRepository {
-    private List<Group> groups = new ArrayList<>();
+    private List<Group> groups;
 
     //Создаем конструктор для передачи данных из файла в сервис
     public GroupRepository() throws IOException {

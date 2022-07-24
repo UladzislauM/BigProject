@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TeacherRepository {
-    private List<Teacher> teachers = new ArrayList<>();
+    private List<Teacher> teachers;
 
     //Создаем конструктор для передачи данных из файла в сервис
     public TeacherRepository() throws IOException {

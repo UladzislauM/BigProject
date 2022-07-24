@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentRepository {
-    private List<Student> students = new ArrayList<>();
+    private List<Student> students;
 
     //Создаем конструктор для передачи данных из файла в сервис
     public StudentRepository() throws IOException {
