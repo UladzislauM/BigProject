@@ -1,5 +1,6 @@
 package com.company.service;
 
+import com.company.exceptions.WrongGenderExeption;
 import com.company.module.Student;
 import com.company.module.Teacher;
 import com.company.repository.TeacherRepository;
@@ -54,5 +55,10 @@ public class TeacherService {
         System.out.println("Start method printToC\n-------------------");
         teacherRepository.getTeachers().stream()
                 .forEach(System.out::println);
+    }
+    //Проверка на пенсии ли учитель и вывод на экран результата
+    public void genderTest(String genderTest) throws WrongGenderExeption {
+        System.out.println("Start method genderTest\n-------------------");
+        System.out.println(teacherRepository.genderTest(genderTest));
     }
 }

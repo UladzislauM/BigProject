@@ -1,6 +1,8 @@
 package com.company.repository;
 
+import com.company.exceptions.WrongGenderExeption;
 import com.company.module.Teacher;
+import com.company.util.GenderException;
 import com.company.util.Parser;
 
 import java.io.IOException;
@@ -42,5 +44,9 @@ public class TeacherRepository {
                 .filter(x->x.getSalary() > 2000)
                 .forEach(s -> finalTeachers.add(s));
         return finalTeachers;
+    }
+    //Проверка на пенсии ли учитель
+    public boolean genderTest(String genderTest) throws WrongGenderExeption {
+        return GenderException.checkGender(genderTest);
     }
 }
