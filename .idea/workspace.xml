@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="AddLesson13Alfa0.5">
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/exceptions/WrongGenderExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/util/GenderException.java" afterDir="false" />
+    <list default="true" id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="AddLesson5TaskAlfa0.5">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StudentsJavaBH/src/util/NamesSortedComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/repository/TeacherRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/com/company/service/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Methodist.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Methodist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/base/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentsJavaBH/src/package1/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/StudentsJavaBH/src/module/Teacher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -25,113 +34,54 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Lesson8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.jdks/openjdk-18.0.1.1/lib/src.zip!/java.base/java/io/FileInputStream.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Bys6yK7UwGpl8fGlgjouwnjUms" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2BKGekEscfBd1oFkjpvwkNGyjct" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "D:/GitHub/Java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.tests" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="StudentsJavaBH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maintest" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="StudentsJavaBH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.maintest" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e669e9a4-1ea7-4b07-92db-018eb81e6152" name="Changes" comment="MergeMainLesson11" />
-      <created>1658564461343</created>
+      <changelist id="e0740786-b879-4435-8a7e-a2ee856159a2" name="Changes" comment="" />
+      <created>1656647470585</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658564461343</updated>
-      <workItem from="1658564464278" duration="25159000" />
+      <updated>1656647470585</updated>
     </task>
-    <task id="LOCAL-00001" summary="AddLesson13">
-      <created>1658565590443</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1658565590443</updated>
-    </task>
-    <task id="LOCAL-00002" summary="AddLesson13Alfa0.2">
-      <created>1658576234271</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658576234271</updated>
-    </task>
-    <task id="LOCAL-00003" summary="AddLesson13Alfa0.3">
-      <created>1658597171146</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658597171146</updated>
-    </task>
-    <task id="LOCAL-00004" summary="AddLesson13Alfa0.4">
-      <created>1658603113433</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1658603113433</updated>
-    </task>
-    <task id="LOCAL-00005" summary="AddLesson13Alfa0.5">
-      <created>1658632770438</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1658632770438</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -145,22 +95,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AddLesson13" />
-    <MESSAGE value="AddLesson13Alfa0.2" />
-    <MESSAGE value="AddLesson13Alfa0.3" />
-    <MESSAGE value="AddLesson13Alfa0.4" />
-    <MESSAGE value="AddLesson13Alfa0.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddLesson13Alfa0.5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.io.FileNotFoundException" package="java.io" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="addLesson8" />
+    <option name="LAST_COMMIT_MESSAGE" value="addLesson8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BigProject$Main.ic" NAME="Main Coverage Results" MODIFIED="1656762641356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
