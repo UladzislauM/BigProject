@@ -35,5 +35,10 @@ public class StudentService {
                 .forEach(System.out::println);
     }
     //_____________________________________________________
-
+    //Вывод на экран (в консоль)
+    public void printToC(){
+        System.out.println("Start method printToC\n-------------------");
+        studentRepository.getStudents().stream()
+                .forEach(System.out::println);
+    }
 }

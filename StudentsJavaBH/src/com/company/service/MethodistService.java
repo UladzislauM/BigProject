@@ -34,11 +34,10 @@ public class MethodistService {
     //_________________________________________________
 
     //Метод конвертации учителя в методиста
-    public Methodist convertTeacherMethodistand(Teacher teacher, Methodist methodist) {
+    public void convertTeacherMethodistand(Teacher teacher) {
         System.out.println("Start method convertTeacherMethodist\n-------------------");
-        methodist = methodistRepository.convertTeacherMethodist(teacher);
+        methodistRepository.addMethodist(methodistRepository.convertTeacherMethodist(teacher));
         methodistRepository.getMethodists().stream().forEach(System.out::println);
-        return methodist;
     }
     //добавление подчиненных учителей к методисту
     public void addTheacherToMetodist(int index, Teacher teacher){
@@ -46,5 +45,10 @@ public class MethodistService {
         methodistRepository.addTeachertoMethodist(index, teacher);
         methodistRepository.getMethodists().stream().forEach(System.out::println);
     }
-
+    //Вывод на экран (в консоль)
+    public void printToC(){
+        System.out.println("Start method printToC\n-------------------");
+        methodistRepository.getMethodists().stream()
+                .forEach(System.out::println);
+    }
 }

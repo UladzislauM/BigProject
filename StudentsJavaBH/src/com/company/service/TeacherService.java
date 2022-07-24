@@ -49,4 +49,10 @@ public class TeacherService {
         teacherRepository.teachersAbove2000Filter().stream()
                         .forEach(System.out::println);
     }
+    //Вывод на экран (в консоль)
+    public void printToC(){
+        System.out.println("Start method printToC\n-------------------");
+        teacherRepository.getTeachers().stream()
+                .forEach(System.out::println);
+    }
 }

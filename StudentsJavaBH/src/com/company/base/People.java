@@ -65,12 +65,12 @@ public abstract class People implements Comparable<People>{
 	}
 
 	public int compareTo(People o) {
-		if(lastName.compareTo(o.getLastName()) == 0){
+		if(o.getName().compareTo(name) == 0){
 			if (age - o.getAge() == 0){
 				return o.getAge() - age;
 			}
-			return o.getLastName().compareTo(lastName);
+			return o.getName().compareTo(name);
 		}
-		return o.getName().compareTo(name);
+		return o.getLastName().compareTo(lastName);
 	}
 }

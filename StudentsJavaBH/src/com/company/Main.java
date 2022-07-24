@@ -13,21 +13,96 @@ import java.io.IOException;
 
 public class Main {
 
-	public static void main(String[] args) throws IOException {
-		StudentService studentService = new StudentService(new StudentRepository());
-		studentService.getStudents();
+    public static void main(String[] args) throws IOException {
+        StudentService studentService = new StudentService(new StudentRepository());
 
-		TeacherService teacherService = new TeacherService(new TeacherRepository());
-		teacherService.getTeachers();
+        GroupService groupService = new GroupService(new GroupRepository());
+        groupService.studentAddToGroup(0, studentService.getStudents().get(0));
+        groupService.studentAddToGroup(0, studentService.getStudents().get(1));
+        groupService.studentAddToGroup(0, studentService.getStudents().get(2));
+        groupService.studentAddToGroup(1, studentService.getStudents().get(3));
+        groupService.studentAddToGroup(1, studentService.getStudents().get(4));
+        groupService.studentAddToGroup(1, studentService.getStudents().get(5));
+        groupService.studentAddToGroup(2, studentService.getStudents().get(6));
+        groupService.studentAddToGroup(2, studentService.getStudents().get(7));
+        groupService.studentAddToGroup(2, studentService.getStudents().get(8));
 
-		MethodistService methodistService =new MethodistService(new MethodistRepository());
-		methodistService.getMethodists();
+        TeacherService teacherService = new TeacherService(new TeacherRepository());
 
-		GroupService groupService = new GroupService(new GroupRepository());
-		groupService.getGroups();
+        groupService.teachrAddToGroup(0, teacherService.getTeachers().get(0));
+        groupService.teachrAddToGroup(1, teacherService.getTeachers().get(1));
+        groupService.teachrAddToGroup(2, teacherService.getTeachers().get(2));
 
-		PeopleService peopleService = new PeopleService();
-		peopleService.getPeoples();
+        MethodistService methodistService = new MethodistService(new MethodistRepository());
+
+        PeopleService peopleService = new PeopleService();
+
+        studentService.getStudents();
+        teacherService.getTeachers();
+        methodistService.getMethodists();
+        groupService.getGroups();
+        peopleService.getPeoples();
+
+
+        teacherService.getTeachers();
+
+        methodistService.convertTeacherMethodistand(teacherService.getTeachers().get(3));
+        methodistService.convertTeacherMethodistand(teacherService.getTeachers().get(4));
+
+        teacherService.removeTeacher(teacherService.getTeachers().get(3));
+        teacherService.removeTeacher(teacherService.getTeachers().get(4));
+
+
+
+        System.out.println("\nTeachers and methodists before convert: " +
+                "\n-------------------------------------------------");
+
+        teacherService.printToC();
+        methodistService.printToC();
+
+        System.out.println("\nTeachers after convert: " +
+                "\n++++++++++++++++++++++++++++++++++++++++++++++++++");
+
+		System.out.println("\nMethodists: " +
+				"\n-------------------------------------------------");
+        methodistService.printToC();
+
+        System.out.println("\nTeachers: " +
+				"\n-------------------------------------------------");
+        teacherService.printToC();
+
+		System.out.println("\nTeachers on retired: " +
+				"\n-------------------------------------------------");
+        teacherService.teachersOnRetiredFilter();
+
+		System.out.println("\nTeachers' salaries are above 2000: " +
+				"\n-------------------------------------------------");
+        teacherService.teachersAbove2000Filter();
+
+		System.out.println("\nAll Groups: " +
+				"\n-------------------------------------------------");
+        groupService.printToC();
+
+		System.out.println("\nGroups out 2022-2023: " +
+				"\n-------------------------------------------------");
+        groupService.groupsOutFilter(2022, 2023);
+
+		System.out.println("\nAll Personal before sorted: " +
+				"\n-------------------------------------------------");
+        peopleService.printToC();
+
+		System.out.println("\nAll Personal after sorted: " +
+				"\n-------------------------------------------------");
+        peopleService.peopleSortedABS();
+
+		System.out.println("\nAll Personal after sorted Comparator (reverse): " +
+				"\n-------------------------------------------------");
+        peopleService.peopleSortedComparatorReverse();
+
+		System.out.println("\nAll Personal after sorted Comparable (reverse) by Last Name: " +
+		"\n-------------------------------------------------");
+        peopleService.peopleSortedComparableReverseByLastName();
+
 
 
 //
@@ -158,7 +233,7 @@ public class Main {
 ////		repository.getPeopleList().stream()
 ////				.sorted()
 ////				.forEach(System.out::println);
-	}
+    }
 
 }
 

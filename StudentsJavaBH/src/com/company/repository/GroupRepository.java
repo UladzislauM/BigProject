@@ -1,6 +1,8 @@
 package com.company.repository;
 
 import com.company.module.Group;
+import com.company.module.Student;
+import com.company.module.Teacher;
 import com.company.util.Parser;
 
 import java.io.IOException;
@@ -36,5 +38,13 @@ public class GroupRepository {
                 .filter(x2 -> x2.getOutYear() <= toX)
                 .forEach(s -> finalGroup.add(s));
         return finalGroup;
+    }
+    //Добавление студента в группу по индексу группы
+    public void studentAddToGroup(int index, Student student){
+        groups.get(index).addStudent(student);
+    }
+    //Доюавление учителя в группу по индексу группы
+    public void teachrAddToGroup(int index, Teacher teacher){
+        groups.get(index).addTeacher(teacher);
     }
 }

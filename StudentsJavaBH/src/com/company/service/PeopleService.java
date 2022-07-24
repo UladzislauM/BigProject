@@ -47,7 +47,7 @@ public class PeopleService {
     // и вывод на экран
     public void peopleSortedComparatorReverse(){
         System.out.println("Start method peopleSortedComparatorReverse\n-------------------");
-        peopleRepository.peopleSortedABS().stream()
+        peopleRepository.peopleSortedComparatorReverse().stream()
                 .forEach(System.out::println);
     }
     //Метод сортировки персонала Comparable в обратном порядке
@@ -61,5 +61,11 @@ public class PeopleService {
     //Метод записи в файл по произвольному пути
     public void writePeople(String path) throws IOException {
         peopleRepository.writePeople(path);
+    }
+    //Вывод на экран (в консоль)
+    public void printToC(){
+        System.out.println("Start method printToC\n-------------------");
+        peopleRepository.getPeoples().stream()
+                .forEach(System.out::println);
     }
 }

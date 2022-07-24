@@ -2,6 +2,8 @@ package com.company.service;
 
 import com.company.module.Group;
 import com.company.module.Methodist;
+import com.company.module.Student;
+import com.company.module.Teacher;
 import com.company.repository.GroupRepository;
 import com.company.repository.TeacherRepository;
 
@@ -40,6 +42,22 @@ public class GroupService {
     public void groupsOutFilter(int fromX, int toX){
         System.out.println("Start method groupsOutFilter\n-------------------");
         groupRepository.groupsOutFilter(fromX, toX).stream()
+                .forEach(System.out::println);
+    }
+    //Добавление студента в группу по индексу группы
+    public void studentAddToGroup(int index, Student student){
+        System.out.println("Start method studentAddToGroup\n-------------------");
+        groupRepository.studentAddToGroup(index,student);
+    }
+    //Доюавление учителя в группу по индексу группы
+    public void teachrAddToGroup(int index, Teacher teacher){
+        System.out.println("Start method teachrAddToGroup\n-------------------");
+        groupRepository.teachrAddToGroup(index, teacher);
+    }
+    //Вывод на экран (в консоль)
+    public void printToC(){
+        System.out.println("Start method printToC\n-------------------");
+        groupRepository.getGroups().stream()
                 .forEach(System.out::println);
     }
 }
